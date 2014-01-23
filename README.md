@@ -11,6 +11,8 @@ var output = hours.parse(input)
 console.log(output)  // S0-4:1100-2300;5-6:1100-2400
 ```
 
+Please also read [the FAQ](https://github.com/kites/kites-challenge-1/wiki).
+
 ## The Output Format
 
 The first thing you should do is read `test/index.js`. It is the **canonical reference**. As long as your parser correctly implements the reference tests, it is considered a correct solution.
@@ -30,12 +32,12 @@ Some English notes:
 3. Implement `hours.parse` in `lib/index.js`
 4. Ensure all tests pass in node via `npm test`
 5. Ensure all tests pass in phantomjs and all browsers
-6. When finished, send us your code for review OR send us a link to the public repository you used (preferred).
+6. When finished, email us your code for review OR send us a link to the public repository you used (preferred).
 
 ## Hints
 
 * Before starting, study the input grammar in `test/index.js` very carefully.
-* We deliberately excluded some edge cases to make your implementation easier. You do not need to implement a full-blown solution that will parse every single possible way of writing store opening hours; just the ones listed in the test file.
+* We deliberately excluded some edge cases to make your implementation easier. You do not need to implement a full-blown solution that will parse every possible way of writing store opening hours; just the ones listed in the test file.
 * After writing a correct implementation in English, dealing with Chinese input should be relatively trivial.
 * At Kites, we use [zuul](https://github.com/defunctzombie/zuul) and [SauceLabs](https://saucelabs.com/) to do our browser testing. SauceLabs includes nice [free testing support](https://saucelabs.com/opensauce) for public repositories.
 
@@ -43,17 +45,8 @@ Some English notes:
 
 To pass, you must provide supporting proof or very clear instructions for how to build and verify your solution passes tests in node, phantomjs, and all browsers. If your solution fails for any subset of platforms or platform versions (e.g. passes every Firefox except Firefox 24.0), you must document the failure and explain why.
 
-You may provide a solution in a language other than Javascript as long as your instructions are very clear.
+**You will be graded on how easy-to-{read,maintain,verify} your code and documentation are.**
 
-**You will be graded on how beautiful and easy-to-{read,maintain,verify} your code and documentation are.**
-
-You can earn bonus points by:
-
-* Adding additional tests and sending a pull request
-
-## Questions or Issues
-
-If you have any questions or bug reports, please file an issue on Github.
 
 
 
