@@ -28,11 +28,13 @@ Some English notes:
 ## Instructions
 
 1. Clone this repository to your own Github public repository and development machine; do **NOT** fork, as other candidates would be able to see your solution
-2. Run `npm install`
-3. Implement `hours.parse` in `lib/index.js`
-4. Ensure all tests pass in node via `npm test`
-5. Ensure all tests pass in phantomjs and all browsers
-6. When finished, send us a link to the public repository you used
+2. Send us a link to the public repository you used and an estimate of how long you will take
+3. Run `npm install`
+4. Implement `hours.parse` in `lib/index.js`
+5. If you break the parse function into subcomponents, you may wish to add additional tests to the `test` folder.
+6. Ensure all tests pass in node via `npm test`
+7. Ensure all tests pass in phantomjs and all browsers
+8. When finished, send us an email to ask for a review
 
 ## Hints
 
