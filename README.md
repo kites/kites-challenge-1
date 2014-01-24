@@ -27,16 +27,16 @@ Some English notes:
 
 ## Instructions
 
-1. Clone this repository to your development machine. You may put your solution in your own Github public repository as long as it is not easily discoverable from kites/kites-challenge-1.
+1. Clone this repository to your own Github public repository and development machine; do **NOT** fork, as other candidates would be able to see your solution
 2. Run `npm install`
 3. Implement `hours.parse` in `lib/index.js`
 4. Ensure all tests pass in node via `npm test`
 5. Ensure all tests pass in phantomjs and all browsers
-6. When finished, email us your code for review OR send us a link to the public repository you used (preferred).
+6. When finished, send us a link to the public repository you used
 
 ## Hints
 
-* Before starting, study the input grammar in `test/index.js` very carefully.
+* Before starting, study the input **grammar** in `test/index.js` very carefully.
 * We deliberately excluded some edge cases to make your implementation easier. You do not need to implement a full-blown solution that will parse every possible way of writing store opening hours; just the ones listed in the test file.
 * After writing a correct implementation in English, dealing with Chinese input should be relatively trivial.
 * At Kites, we use [zuul](https://github.com/defunctzombie/zuul) and [SauceLabs](https://saucelabs.com/) to do our browser testing. SauceLabs includes nice [free testing support](https://saucelabs.com/opensauce) for public repositories.
@@ -47,6 +47,6 @@ To pass, you must provide supporting proof or very clear instructions for how to
 
 **You will be graded on how easy-to-{read,maintain,verify} your code and documentation are.**
 
-
+Ideally your solution is **easily extensible** as we add additional types of test cases. A trivial example: how much work would it be to accomodate hours that look like "9:30 a.m. - 5:00 p.m. Mon to Fri"?
 
 
