@@ -47,6 +47,7 @@ To pass, you must provide supporting proof or very clear instructions for how to
 
 **You will be graded on how easy-to-{read,maintain,verify} your code and documentation are.**
 
-Ideally your solution is **easily extensible** as we add additional types of test cases. A trivial example: how much work would it be to accomodate hours that look like "9:30 a.m. - 5:00 p.m. Mon to Fri"?
+Ideally your solution is **easily extensible** as we add additional types of test cases. We *strongly encourage* you to casually browse the web and research other ways humans write opening hours. A trivial example: how much work would it be to accomodate hours that look like "9:30 a.m. - 5:00 p.m. Mon to Fri"?
 
+Bonus points for including additional (even if skipped) tests in your solution from this research.
 
