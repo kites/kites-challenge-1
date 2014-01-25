@@ -1,6 +1,6 @@
 # Natural Language Hours Parsing
 
-The goal of this challenge is to create a parser that can read store opening hours written by a human and produce a machine-readable canonical (structured) representation.
+The goal of this challenge is to create a parser that can read store opening hours written by a human and produce a machine-readable structured representation.
 
 For example:
 
@@ -20,21 +20,20 @@ The first thing you should do is read `test/index.js`. It is the **canonical ref
 Some English notes:
 
 * There is only one correct output for a given input string.
-* The parser deals with input hours overlaps.
+* The parser deals with overlaps.
 * A day begins at 0000 and ends at 2800.
 
 # Usage
 
 ## Instructions
 
-1. Clone this repository to your own Github public repository and development machine; do **NOT** fork, as other candidates would be able to see your solution
+1. Clone this repository to your own Github public repository and development machine. Do NOT fork, as other candidates would be able to see your solution. Do preserve commit history so it is easy for us to add your repository as a remote.
 2. Send us a link to the public repository you used and an estimate of how long you will take
 3. Run `npm install`
 4. Implement `hours.parse` in `lib/index.js`
-5. If you break the parse function into subcomponents, you may wish to add additional tests to the `test` folder.
-6. Ensure all tests pass in node via `npm test`
-7. Ensure all tests pass in phantomjs and all browsers
-8. When finished, send us an email to ask for a review
+5. Ensure all tests pass in node via `npm test`
+6. Ensure all tests pass in phantomjs and all browsers
+7. When finished, send us an email to ask for a review
 
 ## Hints
 
@@ -51,5 +50,5 @@ To pass, you must provide supporting proof or very clear instructions for how to
 
 Ideally your solution is **easily extensible** as we add additional types of test cases. We *strongly encourage* you to casually browse the web and research other ways humans write opening hours. A trivial example: how much work would it be to accomodate hours that look like "9:30 a.m. - 5:00 p.m. Mon to Fri"?
 
-Bonus points for including additional (even if skipped) tests in your solution from this research.
+Bonus points for including additional (even if `.skip`ed) tests in your solution from this research.
 
