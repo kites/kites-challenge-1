@@ -46,7 +46,7 @@ Some English notes:
 
 To pass, you must provide supporting proof or very clear instructions for how to build and verify your solution passes tests in node, phantomjs, and all browsers. If your solution fails for any subset of platforms or platform versions (e.g. passes every Firefox except Firefox 24.0), you must document the failure and explain why.
 
-**You will be graded on how easy-to-{read,maintain,verify} your code and documentation are.**
+**You will be graded on how easy-to-{read,maintain,verify} your code and documentation are.** Really think from the perspective of what would happen if we had to actually integrate your code into our production environment.
 
 Ideally your solution is **easily extensible** as we add additional types of test cases. We *strongly encourage* you to casually browse the web and research other ways humans write opening hours. A trivial example: how much work would it be to accomodate hours that look like "9:30 a.m. - 5:00 p.m. Mon to Fri"?
 
